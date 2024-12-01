@@ -4,7 +4,7 @@ let frequencySlider, frequencySlider2;
 let frequency, frequency2;
 
 function setup() {
-  canvas = createCanvas(600, 600, WEBGL);
+  canvas = createCanvas(500, 500, WEBGL);
   canvas.parent("container");
   angleMode(DEGREES);
   colorMode(HSB);
@@ -40,7 +40,7 @@ function draw() {
   frequency2.html("Frequency2: " + frequencySlider2.value());
 }
 function windowResized() {
-  resizeCanvas(600, 600);
+  resizeCanvas(500, 500);
 }
 
 function lissajous_3d() {
